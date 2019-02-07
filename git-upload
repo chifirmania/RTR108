@@ -1,0 +1,10 @@
+#!/bin/bash
+if [ $# == 1 ]
+then
+git comfig --global useer.email chifirmania@gmail.com
+git add .
+#git commit -m "20190217_15 _06"
+git commit -m $1
+git push origin master
+fi
+
